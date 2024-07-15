@@ -1,0 +1,145 @@
+.chat-interface-main-div{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-list-iconSearch{
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+ 
+   border-right:1px solid #181717;
+  justify-content: space-around;
+}
+.chatId-details{
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  overflow-y: auto;
+}
+.chat-lists {
+   border-right:1px solid #181717;
+  padding: 20px;
+  overflow-y: 20%;
+  max-height: 100vh;
+}
+
+.chat-profile-div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #848282;
+}
+
+.chat-info {
+  margin-left: 10px;
+}
+
+.chat-name {
+  font-weight: bold;
+}
+
+.chat-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 60%;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 60%;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.message-input-container {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #5aa3e7;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0078e7;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .user-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .user-info .username {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header .user-info .last-seen {
+  font-size: 12px;
+  color: #888;
+}
+
+.header .icons {
+  display: flex;
+  gap: 10px;
+  color: #434343;
+}
+
+.header .icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
